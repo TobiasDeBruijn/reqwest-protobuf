@@ -1,0 +1,20 @@
+[package]
+name = "reqwest-protobuf"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tobias de Bruijn <t.debruijn@mrfriendly.nl>"]
+description = "Protocol buffer support for Reqwest"
+keywords = ["protobuf", "protocol", "buffers", "reqwest", "http"]
+categories = ["encoding", "web-programming::http-client"]
+readme = "README.md"
+documentation = "https://docs.rs/reqwest-protobuf/latest/reqwest-protobuf/"
+repository = 'https://github.com/MrFriendly-B-V/reqwest-protobuf/'
+
+[dependencies]
+thiserror = "1"
+prost = "0.11"
+async-trait = "0.1"
+
+[dependencies.reqwest]
+version = "0.11"
+default-features = false
