@@ -9,7 +9,7 @@ categories = ["encoding", "web-programming::http-client"]
 readme = "README.md"
 documentation = "https://docs.rs/reqwest-protobuf/latest/reqwest-protobuf/"
 repository = 'https://github.com/MrFriendly-B-V/reqwest-protobuf/'
-license = "MIT OR Apache2.0"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 thiserror = "1"
